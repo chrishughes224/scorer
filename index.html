@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Scorer</title>
+    <meta name="description" content="Scorecard for family card and board games." />
+    <meta name="theme-color" content="#d32f2f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Scorer" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <main id="app"></main>
+    <nav id="tabs" class="tabs" hidden>
+      <a href="#/" data-tab=""><span>🃏</span>Games</a>
+      <a href="#/stats" data-tab="stats"><span>🏆</span>Stats</a>
+      <a href="#/players" data-tab="players"><span>👥</span>Players</a>
+      <a href="#/settings" data-tab="settings"><span>⚙️</span>Settings</a>
+    </nav>
+    <dialog id="sheet"></dialog>
+  </body>
+</html>
